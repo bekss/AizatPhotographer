@@ -1,155 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="My Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Akylbekov Beksultan Akylbekovich" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Aizat Mitalipova Photography of love</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">AM</a>
+                </div>
 
-    <link rel="shortcut icon" href="./assets/img/dev_logo.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
-    <title>Akylbekov Beksultan Akylbekovich</title>
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close">
+                        <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/main.css">
-  </head>
+                <div class="nav__toggle" id="nav-toggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
 
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">Akylbekov Beksultan Akylbekovich</span>
-          <span class="site-description"
-            >Programmer • Web Developer • </span
-          >
-        </h1>
-        <div class="header-icons">
-          <a
-            aria-label="My LinkedIn Profile"
-            target="_blank"
-            href="https://www.linkedin.com/in/beksultan-akylbekov-234267155/"
-          >
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a
-            aria-label="My Github Profile"
-            target="_blank"
-            href="https://github.com/bekss"
-          >
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <a
-            aria-label="My Résumé"
-            target="_blank"
-            href="assets/img/Resume.pdf"
-          >
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a
-            aria-label="Send Email"
-            href="mailto:beka.anon@gmail.com"
-            target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
-        </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-        </div>
-      </div>
-      <a class="down" href="#about" data-scroll
-        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
-      ></a>
-    </div>
+        <main class="l-main bd-grid">
+            <div class="home">
+                <h1 class="home__title">
+                    I´M A <br> 
+                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>  
+                    <br> ARTIST
+                </h1>
 
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <img
-          src="./assets/img/My-image1.jpg"
-          alt="Professional Me"
-          width="20%"
-        />
-        <p>
-          I am a web developer with 2 years of experience. I make landing sites, dynamic sites, Telegram, Instagram bots.
-        </p>
-      </div>
+                <div class="home__img">
+                    
+                </div>
 
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2>Languages</h2>
-          <i class="devicon-python-plain colored"></i>
-<!--          <i class="devicon-java-plain-wordmark colored"></i>-->
-          <i class="devicon-phpstorm-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <p>
-            My favorite languages for systems programming, web automation, and
-            data analysis.
-          </p>
-        </div>
+                <div class="home__social">
+                    <a href="aizatphotograph" target="_blanc" class="home__social-link">aizatphotograph</a>
+                    <a href="https://www.instagram.com/aizat_photograph/" target="_blanc" class="home__social-link">instagram</a>
+                    <a href="https://www.facebook.com/natalia.zieba.fotografia" target="_blanc" class="home__social-link">facebook</a>
+                </div>
 
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>
-            My preferred technologies for front-end web development and
-            component design.
-          </p>
-        </div>
+                <h2 class="home__subtitle">Aizat<br>Mitalipova</h2>
 
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-php-plain colored"></i>
-          <i class="devicon-django-line"></i>
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <p>
-            My preferred technologies for back-end web programming and database
-            architecture.
-          </p>
-        </div>
+                <a href="tel:+996709425798" class="home__button">Contact <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a>
 
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain colored"></i>
-          <i class="devicon-pycharm-plain colored"></i>
-          <p>
-            My favorite tools for version control, code editing.
-          </p>
-        </div>
-      </div>
-    </section>
+            </div>
+        </main>
+
+        <!-- MAIN -->
+        <script src="js/main.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+        <!-- THREE JS -->
+        <script src="js/three.min.js"></script>
+
+
+        <!-- HOVER-EFFECT JS -->
+        <script src="js/hover-effect.umd.js"></script>
+        
+         <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
     
-    <footer class="footer">
-      <p>&copy; Akylbekov Beksultan Akylbekovich 2021</p>
-    </footer>
+        <script>
+            new hoverEffect({
+                parent: document.querySelector('.home__img'),
+                intensity: 0.3,
+                image1: 'img/Aizat.jpg',
+                image2: 'img/Aizateki.jpg',
+                displacementImage: 'img/diss.png',
+                imagesRatio: 450 / 300
+            })
 
-    <!-- Import JS: Particles  -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-<!--    &lt;!&ndash; Import JS: Google Analytics &ndash;&gt;-->
-<!--    <script src="./assets/js/google-analytics.js"></script>-->
-    <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
-  </body>
+            /* NAV, TITLE Y IMG y*/
+            gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
+            gsap.from('.home__title', {opacity: 0, duration: 1.2, delay:1.2, y: -30})
+            gsap.from('.home__img', {opacity: 0, duration: 1.3, delay:1.3, y: -50})
+
+            /*SOCIAL, SUBTITLE Y BUTTON*/
+            gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
+            gsap.from('.home__subtitle', {opacity: 0, duration: 1, delay: 1.8, y: 50})
+            gsap.from('.home__button', {opacity: 0, duration: 1, delay:2, y: 50})
+        </script>
+    </body>
 </html>
